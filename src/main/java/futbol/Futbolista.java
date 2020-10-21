@@ -19,10 +19,6 @@ public abstract class Futbolista implements java.lang.Comparable {
         this.posicion = posicion;
     }
 
-    public boolean equals(Futbolista f){
-        return f.equals(this);
-    }
-
     public String getNombre() {
         return nombre;
     }
