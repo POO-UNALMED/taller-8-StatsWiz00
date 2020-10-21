@@ -24,12 +24,8 @@ public class Jugador extends Futbolista {
         return getEdad() - ((Futbolista) o).getEdad();
     }
     @Override
-    public String toString(){
-        String retorno ="El futbolista " + getNombre() + " tiene " + getEdad() + " y juega de " + getPosicion();
-        if (this instanceof Jugador){
-            retorno += ". Ha marcado " + golesMarcados;
-        }
-        return retorno;
+    public String toString() {
+        return "El futbolista " + getNombre() + " tiene " + getEdad() + ", y juega de " + getPosicion() + ". Ha marcado " + golesMarcados;
     }
 
 }

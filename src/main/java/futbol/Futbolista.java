@@ -43,11 +43,11 @@ public abstract class Futbolista implements java.lang.Comparable {
         return posicion;
     }
 
+
     abstract public boolean jugarConLasManos();
     @Override
     public String toString(){
-        String retorno ="El futbolista " + nombre + " tiene " + edad + " y juega de " + posicion;
-        return retorno;
+        return "El futbolista " + nombre + " tiene " + edad + ", y juega de " + posicion;
     }
 
 
